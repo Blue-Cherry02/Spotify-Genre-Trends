@@ -25,4 +25,6 @@ ggplot(dataS_top, aes(x = year, y = song_count, color = track_genre)) +
   scale_x_continuous(breaks = 2010:2019)
 
 
+ggsave("spotify_genre_plot.png", width = 10, height = 6, dpi = 300)
+
 
